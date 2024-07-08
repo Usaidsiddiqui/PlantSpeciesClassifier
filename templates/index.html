@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Classifier</title>
+</head>
+<body>
+    <h1>Image Classifier</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="model">Select Model:</label>
+        <select name="model" id="model">
+            <option value="gnb">Gaussian Naive Bayes</option>
+            <!-- Add more model options here -->
+        </select>
+        <br><br>
+        <label for="file">Select Image:</label>
+        <input type="file" name="file" id="file">
+        <br><br>
+        <input type="submit" value="Upload and Classify">
+    </form>
+</body>
+</html>
